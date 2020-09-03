@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+:root{
+  --primary-1 : #6320EE;
+  --primary-2 : #8075FF;
+  --black : #211A1D;
+  --grey-1 : #F8F0FB;
+  --grey-2 : #CAD5CA;
+  --transition : all 0.2s linear;
+  --radius : 2rem;
+}
+
+body{
+  background: var(--black);
+  color: white;
+}
+h1{
+  margin-top: 1.4rem;
+  margin-bottom: 10px;
+}
+h3{
+  margin-bottom: 1rem;
+}
+.todoEntry.Mui-focused {
+  color: #8075FF;
+}
+.btn2 {
+  color: white;
+}
+.done{
+  text-decoration: line-through ;
+}
+.doneCheckbox{
+  margin-right : 10px;
+}
